@@ -1,3 +1,6 @@
+## Description
+This is a Restful Api built using Express and sequelize npm package for using mysql database , it can perform CRUD operations for blogs/tags created and has a many to many relationship between tags and blogs api. I have also added authentication for admin previllages here for the user created
+
 ## API Endpoints
 
 | HTTP Verb | Endpoint                                   | Action                                             |
@@ -16,4 +19,11 @@
 | DELETE    | /api/v1/removetagfromblog/:blog_id/:tag_id | Remove a tag from a blog                           |
 | PUT       | /api/v1/updateTagForBlog/:blog_id/:tag_id  | Update a tag for a specific blog post              |
 
+## Postman Test Results
+
 [Click here to view Postman results](./PostmanResults.md)
+
+## Setup Instructions
+- Clone the repository.
+- Install the dependencies using npm install.
+- Start the server using npm start or npm run dev (for development with nodemon).
